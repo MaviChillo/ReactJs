@@ -4,17 +4,17 @@ import '../style.css'
 
 const ItemCount = () => {
 
-    const [v, setV] = useState(0);
+    const [valor, setValor] = useState(0);
     const [fecha, setFecha] = useState(new Date());
 
   
     const sumar = () => {
-      setV(v + 1);
+      setValor(valor + 1);
       setFecha(new Date());
     };
   
     const restar = () =>{
-      setV(v - 1);
+      setValor(valor - 1);
       setFecha(new Date());
     }
     return (
@@ -25,7 +25,7 @@ const ItemCount = () => {
         
       <div id="count">
         <button class="boton-restar" onClick={restar}> - </button>
-        {v}
+        {valor}
         <button class="boton-sumar" onClick={sumar}> + </button>
 
       </div>
