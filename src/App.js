@@ -10,7 +10,11 @@ const App = () => {
 
     <div>
         <NavBar sticky="top"/>
+
+        
         <ItemListContainer/>
+        <br></br>
+
         <ItemCount/>
     </div>
   );
