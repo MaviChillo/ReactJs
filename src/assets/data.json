@@ -1,0 +1,6 @@
+[
+    {"id": 1, "nombre": "Remera Tour BVB", "descripcion": "Remera del tour de Estados Unidos de la banda Black Veil Brides en 2021", "precio":3500, "stock": 8, "img":"../components/img/merch/remes/reme1.png"},
+    {"id": 2, "nombre": "Buzo Tour BVB", "descripcion": "Buzo tour Black Veil Brides", "precio":5500, "stock": 6, "img":"../components/img/merch/buzos/buzo1.png"},
+    {"id": 3, "nombre": "Gorra Tour BVB", "descripcion": "Gorra tour Black Veil Brides", "precio":2500, "stock": 4, "img":"../components/img/merch/accesorios/beanie.png"},
+    {"id": 4, "nombre": "Pins Tour BVB", "descripcion": "Pins tour Black Veil Brides", "precio":1500, "stock": 2, "img":"../components/img/merch/accesorios/buttons.png"}
+]

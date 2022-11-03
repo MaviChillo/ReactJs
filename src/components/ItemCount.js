@@ -4,18 +4,22 @@ import '../style.css'
 
 const ItemCount = () => {
 
-    const [valor, setValor] = useState(0);
+    let [valor, setValor] = useState(0);
     const [fecha, setFecha] = useState(new Date());
 
   
     const sumar = () => {
-      setValor(valor + 1);
+      if (valor <= 7) {
+        setValor(valor + 1);
+      }
       setFecha(new Date());
     };
   
     const restar = () =>{
+      if (valor !== 0){
       setValor(valor - 1);
-      setFecha(new Date());
+      }
+    setFecha(new Date());
     }
     return (
       <div>
@@ -24,9 +28,9 @@ const ItemCount = () => {
         <br></br>
         
       <div id="count">
-        <button class="boton-restar" onClick={restar}> - </button>
+        <button className="boton-restar" onClick={restar}> - </button>
         {valor}
-        <button class="boton-sumar" onClick={sumar}> + </button>
+        <button className="boton-sumar" onClick={sumar}> + </button>
 
       </div>
         <p id="fecha">{fecha.toLocaleString()}</p>
