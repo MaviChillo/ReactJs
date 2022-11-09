@@ -1,15 +1,16 @@
 import { useState, useEffect } from "react";
 import ItemList from './ItemList.js'
 import { getProducts } from "../services/Products";
+import { useParams } from "react-router-dom";
 
 
 const ItemListContainer = () => {
 
   const [prod, setProd] = useState([])
-  
+  const {idCategoria} = useParams()
   useEffect(() => {
-    getProducts().then(data => setProd(data));;
-  },[]);
+    getProducts(idCategoria).then(data => setProd(data));;
+  },[idCategoria]);
 
     return (
   

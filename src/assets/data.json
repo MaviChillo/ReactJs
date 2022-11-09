@@ -1,6 +1,21 @@
 [
-    {"id": 1, "nombre": "Remera Tour BVB", "descripcion": "Remera del tour de Estados Unidos de la banda Black Veil Brides en 2021", "precio":3500, "stock": 8, "img":"../components/img/merch/remes/reme1.png"},
-    {"id": 2, "nombre": "Buzo Tour BVB", "descripcion": "Buzo tour Black Veil Brides", "precio":5500, "stock": 6, "img":"../components/img/merch/buzos/buzo1.png"},
-    {"id": 3, "nombre": "Gorra Tour BVB", "descripcion": "Gorra tour Black Veil Brides", "precio":2500, "stock": 4, "img":"../components/img/merch/accesorios/beanie.png"},
-    {"id": 4, "nombre": "Pins Tour BVB", "descripcion": "Pins tour Black Veil Brides", "precio":1500, "stock": 2, "img":"../components/img/merch/accesorios/buttons.png"}
+    {"id": 1, "nombre": "Remera Red Cross", "descripcion": "Remera Red Cross de la banda Black Veil Brides en 2020", "categoria": 1, "precio":3500, "stock": 8, "img":"./img/merch/remes/reme1.png"},
+    {"id": 2, "nombre": "Remera The Fighter", "descripcion": "Remera The Fighter de la banda Black Veil Brides en 2021", "precio": 3500, "categoria": 1, "stock": 8, "img": "./img/merch/remes/reme2.png"},
+    {"id": 3, "nombre": "Remera Album Art", "descripcion": "Remera Album Art de la banda Black Veil Brides en 2021", "precio": 3500, "categoria": 1, "stock": 8, "img": "./img/merch/remes/reme3.png"},
+    {"id": 4, "nombre": "Remera Phantom Tomorrow", "descripcion": "Remera Phantom Tomorrow de la banda Black Veil Brides en 2021", "precio": 3500, "categoria": 1, "stock": 8, "img": "./img/merch/remes/reme4.png"},
+
+    {"id": 5, "nombre": "Buzo Blessed and Cursed", "descripcion": "Buzo Blessed and Cursed de la banda Black Veil Brides en 2021", "categoria":2, "precio":5500, "stock": 8, "img":"./img/merch/buzos/buzo1.png"},
+    {"id": 6, "nombre": "Buzo Phantom Tomorrow", "descripcion": "Buzo Phantom Tomorrow de Estados Unidos de la banda Black Veil Brides en 2021", "precio": 5500, "categoria": 2, "stock": 8, "img": "./img/merch/buzos/buzo2.png"},
+    {"id": 7, "nombre": "Buzo Scarlet Cross", "descripcion": "Buzo Scarlet Cross de la banda Black Veil Brides en 2020", "precio": 5500, "categoria": 2, "stock": 8, "img": "./img/merch/buzos/buzo3.png"},
+    {"id": 8, "nombre": "Buzo Wounds", "descripcion": "Buzo Wounds de Estados Unidos de la banda Black Veil Brides en 2019", "precio": 4500, "categoria": 2, "stock": 8, "img": "./img/merch/buzos/buzo4.png"},
+
+    {"id": 9, "nombre": "Vinilo Phantom Tomorrow", "descripcion": "Vinilo Phantom Tomorrow de la banda Black Veil Brides en 2021", "precio": 2600, "categoria": 3, "stock": 8, "img": "./img/merch/vin-cd/vinilo1.png"},
+    {"id": 10, "nombre": "Cd Phantom Tomorrow", "descripcion": "Cd Phantom Tomorrow de la banda Black Veil Brides en 2021", "precio": 1200, "categoria": 3, "stock": 8, "img": "./img/merch/vin-cd/cd1.png"},
+    {"id": 11, "nombre": "Cd Wretched and Divine", "descripcion": "Cd Wretched and Divine de la banda Black Veil Brides en 2018", "precio": 1000, "categoria": 3, "stock": 8, "img": "./img/merch/vin-cd/cd2.png"},
+    {"id": 12, "nombre": "Vinilo Re-stitch . T . W .", "descripcion": "Vinilo Re-stitch These Wounds de la banda Black Veil Brides en 2019", "precio": 2500, "categoria": 3, "stock": 8, "img": "./img/merch/vin-cd/vinilo2.png"},
+
+    {"id": 13, "nombre": "Buttons Born Again", "descripcion": "Buttons Born Again de la banda Black Veil Brides en 2021", "precio": 1000, "categoria": 4, "stock": 8, "img": "./img/merch/accesorios/buttons.png"},
+    {"id": 14, "nombre": "Patches P . T .", "descripcion": "Patches Phantom Tomorrow de la banda Black Veil Brides en 2021", "precio": 2000, "categoria": 4, "stock": 8, "img": "./img/merch/accesorios/patches.png"},
+    {"id": 15, "nombre": "Beanie Black Veil Brides", "descripcion": "Beanie de la banda Black Veil Brides en 2021", "precio": 3000, "categoria": 4, "stock": 8, "img": "./img/merch/accesorios/beanie.png"},
+    {"id": 16, "nombre": "Necklace Black Veil Brides", "descripcion": "Necklace de la banda Black Veil Brides en 2019", "precio": 2000, "categoria": 4, "stock": 8, "img": "./img/merch/accesorios/collar.jpg"}
 ]

@@ -7,6 +7,9 @@
     overflow-x: hidden;
     color: #FFFFFF;
   }
+  h2{
+    color: #FFFFFF;
+  }
   
 
   nav {
@@ -52,6 +55,16 @@
             #a{
               color: white;
               padding: 5%;
+              text-decoration: none;
+            }
+
+            #a:hover {
+              text-decoration: overline darkred;
+            }
+
+            #ver-prod{
+              color: red;
+              text-decoration: none;
             }
 
             #logo{
@@ -64,7 +77,7 @@
             }
 
             #cartLogo{
-              width: 5%;
+              width: 17%;
             }
 
             #welcome{
@@ -97,14 +110,16 @@
             }
 
             .div-prod-father{
+              color: #FFFFFF;
               padding: 15px;
-              display: inline-flex;
+              display: flex wrap;
               flex-direction: row;
               justify-content: space-evenly;
               width: 100%;
             }
 
             .div-prod-child{
+              color: #FFFFFF;
               justify-content: center;
               align-items: center;
               text-align: center;
@@ -112,7 +127,7 @@
               float: left;
               padding: 20px;
               margin-right: 20px;
-              border: 2px solid darkred;
+              /* border: 2px solid; */
             }
 
             .img-prod{
@@ -120,6 +135,7 @@
             }
 
             .div-prod-child-detallado{
+              color: #FFFFFF;
               justify-content: center;
               align-items: center;
               text-align: center;
