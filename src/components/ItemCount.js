@@ -1,45 +1,35 @@
 import {useState} from 'react';
 import '../style.css'
 
-const ItemCount = ({products}) => {
 
-    let [valor, setValor] = useState(0);
-
-    // const stock = products[6].stock
-    
-    // console.log(products[0].id)
-    // console.log(products[0].stock)
-
-
-      const sumar = () => {
-        if (valor < 10){
-      setValor(valor + 1);
-      }
-    }
+const ItemCount = ({ onAdd, initial, stock }) => {
   
-    const restar = () =>{
-      if (valor !== 0){
-      setValor(valor - 1);
-      }
-    }
+  const [qty, setQty] = useState(Number(initial));
 
-  
+  const addProduct = (num) => {
+    setQty(qty + num);
+  };
+
+
   return (
-      <div>
+    <div className="count-container">
 
-        
-        <br></br>
-        
-      <div id="count">
-        <button className="boton-restar" onClick={restar}> - </button>
-        {valor}
-        <button className="boton-sumar" onClick={sumar}> + </button>
+      <div className="count-container__contador">
+
+        <button className="count-container__button" onClick={() => addProduct(-1)} disabled={qty === initial}>-</button>
+        <span className="count-container__qty">{qty}</span>
+        <button className="count-container__button" onClick={() => addProduct(+1)} disabled={qty === stock}>+</button>
 
       </div>
+      <br />
+        <button id="button" onClick={() => { onAdd(qty); }} disabled={stock === 0 ? true : null}> Comprar </button> 
         
 
-      </div>
-    );
-  }
-  
-  export default ItemCount;
+    </div>
+  );
+};
+
+export default ItemCount;
+
+
+

@@ -1,20 +1,18 @@
 import React from 'react'
-import {getProducts} from '../services/Products';
-import {useState, useEffect} from 'react';
 import '../style.css'
 import ItemCount from './ItemCount';
 
 const ItemCountContainer = () => {
 
-    const [prod, setProd] = useState([])
 
-    useEffect(() => {
-      getProducts().then(data => setProd(data));;
-    },[]);
+  const onAdd = (qty) => {
+    qty === 1 ? alert(`Agregaste ${qty} producto`) : alert(`Agregaste ${qty} productos`)
+  }
 
   return (
     <div>
-        <ItemCount products={prod}/> 
+        {/* <ItemCount products={prod}/>  */}
+        <ItemCount onAdd={onAdd} initial={1} stock={10} />
         </div>
   )
 }

@@ -23,8 +23,6 @@ const ItemDetail = ({product}) => {
           Stock: {product.stock}
           <br></br>
           <ItemCountContainer/>
-          <br></br>
-          <button id='button'>Comprar</button>
 
       </div>
 
