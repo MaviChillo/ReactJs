@@ -6,7 +6,6 @@ const ItemDetail = ({product}) => {
   console.log('miproducto: ', product)
 
   return (
-    <div>
 
       <div className='div-prod-child-detallado'>
 
@@ -26,7 +25,6 @@ const ItemDetail = ({product}) => {
 
       </div>
 
-    </div>
   )
 }
 
