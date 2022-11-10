@@ -22,8 +22,7 @@ const ItemCount = ({ onAdd, initial, stock }) => {
 
       </div>
       <br />
-        <button id="button" onClick={() => { onAdd(qty); }} disabled={stock === 0 ? true : null}> Comprar </button> 
-        
+      <button id="button" onClick={() => { onAdd(qty); }} disabled={stock === 0 ? true : null}> Comprar </button> 
 
     </div>
   );

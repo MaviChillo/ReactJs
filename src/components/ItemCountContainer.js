@@ -11,9 +11,8 @@ const ItemCountContainer = () => {
 
   return (
     <div>
-        {/* <ItemCount products={prod}/>  */}
         <ItemCount onAdd={onAdd} initial={1} stock={10} />
-        </div>
+    </div>
   )
 }
 
