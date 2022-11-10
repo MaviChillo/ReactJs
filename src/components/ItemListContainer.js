@@ -16,7 +16,7 @@ const ItemListContainer = () => {
   
       <div>
           <h3 id="welcome">Black Veil Brides' Merch Store</h3>
-           <ItemList products={prod}/> 
+          <ItemList products={prod}/> 
       </div>
     );
   }

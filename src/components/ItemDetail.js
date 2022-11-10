@@ -1,5 +1,5 @@
 import React from 'react'
-import { getProduct } from "../services/Products";
+import ItemCountContainer from './ItemCountContainer';
 
 const ItemDetail = ({product}) => {
 
@@ -21,6 +21,10 @@ const ItemDetail = ({product}) => {
           <br></br>
           <br></br>
           Stock: {product.stock}
+          <br></br>
+          <ItemCountContainer/>
+          <br></br>
+          <button id='button'>Comprar</button>
 
       </div>
 

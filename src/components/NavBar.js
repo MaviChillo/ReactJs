@@ -21,7 +21,8 @@ function NavBar() {
             <NavLink id="a" to="/">Home</NavLink>
             <NavLink id="a" to='/category/1'>Remeras</NavLink>
             <NavLink id="a" to='/category/2'>Buzos</NavLink>
-            <NavLink id="a" to='/category/3'>Accesorios</NavLink>
+            <NavLink id="a" to='/category/3'>Discos</NavLink>
+            <NavLink id="a" to='/category/4'>Accesorios</NavLink>
             <NavLink id="a" to="/">
             <img id="cartLogo" src={CartWidget} alt="cartLogo"></img>
                 </NavLink>

@@ -1,28 +1,30 @@
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 import '../style.css'
-// import ItemListContainer from './ItemListContainer.js';
 
 const ItemCount = ({products}) => {
 
     let [valor, setValor] = useState(0);
-    // const [fecha, setFecha] = useState(new Date());
 
+    // const stock = products[6].stock
     
-  
-    const sumar = () => {
-      if (valor <= 7) {
-        setValor(valor + 1);
+    // console.log(products[0].id)
+    // console.log(products[0].stock)
+
+
+      const sumar = () => {
+        if (valor < 10){
+      setValor(valor + 1);
       }
-      // setFecha(new Date());
-    };
+    }
   
     const restar = () =>{
       if (valor !== 0){
       setValor(valor - 1);
       }
-    // setFecha(new Date());
     }
-    return (
+
+  
+  return (
       <div>
 
         
@@ -34,7 +36,7 @@ const ItemCount = ({products}) => {
         <button className="boton-sumar" onClick={sumar}> + </button>
 
       </div>
-        {/* <p id="fecha">{fecha.toLocaleString()}</p> */}
+        
 
       </div>
     );

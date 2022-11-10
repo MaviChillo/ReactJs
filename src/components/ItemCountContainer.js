@@ -1,8 +1,6 @@
 import React from 'react'
-import products from '../assets/data.json'
 import {getProducts} from '../services/Products';
 import {useState, useEffect} from 'react';
-import ItemList from './ItemList.js';
 import '../style.css'
 import ItemCount from './ItemCount';
 
