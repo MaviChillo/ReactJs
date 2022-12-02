@@ -78,51 +78,32 @@ function FinalizarCompra() {
                     <Row className="mb-3 mt-4 justify-content-center form-group">
                         <Form.Group as={Col} md="2" controlId="validationCustom01">
                             <Form.Label className='form-label'>Nombre</Form.Label>
-                            <Form.Control
-                                required
-                                type="text"
-                                placeholder="Nombre"
-                                name="nombre"
-                                onChange={datosComprador}
-                            />
-                            <Form.Control.Feedback>¡Perfecto!</Form.Control.Feedback>
+                            <Form.Control type="text" placeholder="Nombre" name="nombre" onChange={datosComprador} required/>
+                            <Form.Control.Feedback>✔</Form.Control.Feedback>
                         </Form.Group>
                         <Form.Group as={Col} md="2" controlId="validationCustom02">
                             <Form.Label className='form-label'>Apellido</Form.Label>
-                            <Form.Control
-                                required
-                                type="text"
-                                placeholder="Apellido"
-                                name='apellido'
-                                onChange={datosComprador}
-                            />
-                            <Form.Control.Feedback>¡Excelente!</Form.Control.Feedback>
+                            <Form.Control type="text" placeholder="Apellido" name='apellido' onChange={datosComprador} required/>
+                            <Form.Control.Feedback>✔</Form.Control.Feedback>
                         </Form.Group>
                         </Row>
                         <Row className="mb-3 mt-4 justify-content-center form-group">
                         <Form.Group as={Col} md="3" controlId="validationCustom03">
                             <Form.Label className='form-label'>Email</Form.Label>
                             <Form.Control type="email" placeholder="Email" name='email' onChange={datosComprador} required  />
-                            <Form.Control.Feedback type="invalid">
-                                Por favor, indicar un email valido.
-                            </Form.Control.Feedback>
+                            <Form.Control.Feedback>✔</Form.Control.Feedback>
                         </Form.Group>
                         <Form.Group as={Col} md="3" controlId="validationCustom04">
                             <Form.Label className='form-label'>Telefono</Form.Label>
-                            <Form.Control type="number" placeholder="Telefono" name='telefono' onChange={datosComprador} 
-                            />
-                            <Form.Control.Feedback type="invalid">
-                                Por favor, indicar un telefono valido.
-                            </Form.Control.Feedback>
+                            <Form.Control type="number" placeholder="Telefono" name='telefono' onChange={datosComprador} required  />
+                            <Form.Control.Feedback>✔</Form.Control.Feedback>
                         </Form.Group>
                         </Row>
                         <Row className="mb-3 mt-4 justify-content-center form-group">
                         <Form.Group as={Col} md="3" controlId="validationCustom05">
                             <Form.Label className='form-label'>Codigo Postal</Form.Label>
-                            <Form.Control type="number" placeholder="Codigo Postal" name='codigo-postal' onChange={datosComprador}/>
-                            <Form.Control.Feedback type="invalid">
-                                Por favor, indicar un codigo de postal valido.
-                            </Form.Control.Feedback>
+                            <Form.Control type="number" placeholder="Codigo Postal" name='codigo-postal' onChange={datosComprador} required />
+                            <Form.Control.Feedback>✔</Form.Control.Feedback>
                         </Form.Group>
                     </Row>
                     
