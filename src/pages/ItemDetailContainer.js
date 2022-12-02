@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState, useEffect } from "react";
 import { useParams } from 'react-router-dom';
-import { getProduct } from "../services/Products";
-import ItemDetail from './ItemDetail';
+import ItemDetail from '../components/ItemDetail';
+import { getProductoById} from '../app/api';
 
 const ItemDetailContainer = () => {
   
@@ -10,8 +10,8 @@ const ItemDetailContainer = () => {
   const [det, setDet] = useState({})
   
   useEffect(() => {
-    getProduct(idProduct).then(data => setDet(data));;
-  },[]);
+    getProductoById(idProduct).then(data => setDet(data));;
+  },[idProduct]);
 
   return (
     <div>

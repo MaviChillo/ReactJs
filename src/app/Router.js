@@ -1,12 +1,11 @@
 import React from 'react'
 import Layout from './Layout'
-// import Remeras from '../pages/Remeras'
-// import Buzos from '../pages/Buzos'
-// import Acces from '../pages/Acces'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import '../style.css'
-import ItemListContainer from '../components/ItemListContainer'
-import ItemDetailContainer from '../components/ItemDetailContainer'
+import ItemListContainer from '../pages/ItemListContainer'
+import ItemDetailContainer from '../pages/ItemDetailContainer'
+import Cart from '../components/Cart'
+import FinalizarCompra from '../components/FinalizarCompra'
 
 const Router = () => (
 
@@ -18,6 +17,8 @@ const Router = () => (
                 <Route index element={<ItemListContainer/>}/>
                 <Route path='/category/:idCategoria' element={<ItemListContainer/>}/>
                 <Route path='/product/:idProduct' element={<ItemDetailContainer/>}/>
+                <Route path='/cart' element={<Cart/>}/>
+                <Route path='/cart/finalizar-compra' element={<FinalizarCompra />} />
 
             </Route>
 

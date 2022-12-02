@@ -5,13 +5,13 @@ import ItemCount from './ItemCount';
 const ItemCountContainer = () => {
 
 
-  const onAdd = (qty) => {
-    qty === 1 ? alert(`Agregaste ${qty} producto`) : alert(`Agregaste ${qty} productos`)
-  }
+  // const onAdd = (qty) => {
+  //   qty === 1 ? alert(`Agregaste ${qty} producto`) : alert(`Agregaste ${qty} productos`)
+  // }
 
   return (
     <div>
-        <ItemCount onAdd={onAdd} initial={1} stock={10} />
+        <ItemCount initial={1} stock={10} />
     </div>
   )
 }
