@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MaviChillo/ReactJs.git/static/css/main.ee20bee1.css",
+    "main.js": "/MaviChillo/ReactJs.git/static/js/main.af400518.js",
+    "static/media/logo-but-1.png": "/MaviChillo/ReactJs.git/static/media/logo-but-1.cd0b4d62b5f65df845c9.png",
+    "static/media/bg-band2.jpg": "/MaviChillo/ReactJs.git/static/media/bg-band2.5480fe34a53d353887c6.jpg",
+    "static/media/logo-loader.png": "/MaviChillo/ReactJs.git/static/media/logo-loader.941c342e6858c4917ea6.png",
+    "static/media/instagram.png": "/MaviChillo/ReactJs.git/static/media/instagram.e23529ec33fa0fc146d3.png",
+    "static/media/footer1.jpg": "/MaviChillo/ReactJs.git/static/media/footer1.be9e186a90b67e958f45.jpg",
+    "static/media/cart2.png": "/MaviChillo/ReactJs.git/static/media/cart2.05628f6a3f5419ae0fed.png",
+    "static/media/spotify.png": "/MaviChillo/ReactJs.git/static/media/spotify.1d87ef76f9b908f9d9d5.png",
+    "index.html": "/MaviChillo/ReactJs.git/index.html",
+    "main.ee20bee1.css.map": "/MaviChillo/ReactJs.git/static/css/main.ee20bee1.css.map",
+    "main.af400518.js.map": "/MaviChillo/ReactJs.git/static/js/main.af400518.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee20bee1.css",
+    "static/js/main.af400518.js"
+  ]
+}
