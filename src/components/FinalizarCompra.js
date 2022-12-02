@@ -67,9 +67,7 @@ function FinalizarCompra() {
                     <br />
                     <h2>Gracias por tu compra!</h2>
                     <h4>Tu numero de orden es {orderId}</h4>
-                    {/* {products.map(product => <Item key={product.id} product={product} />)} */}
                     <CartFinalizar />
-                    {/* {cart} */}
                     <Link id='ver-prod' to={'/'}><button id="button" onClick={clear}>Volver a la pagina de inicio</button></Link>
                     <br />
                 </div>
