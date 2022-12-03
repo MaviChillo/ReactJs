@@ -9,7 +9,7 @@ import FinalizarCompra from '../components/FinalizarCompra'
 
 const Router = () => (
 
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
         <Routes>
 
             <Route element={<Layout/>}>
