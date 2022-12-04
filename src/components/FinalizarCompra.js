@@ -68,7 +68,7 @@ function FinalizarCompra() {
                     <h2>Gracias por tu compra!</h2>
                     <h4>Tu numero de orden es {orderId}</h4>
                     <CartFinalizar />
-                    <Link id='ver-prod' to={'/'}><button id="button" onClick={clear}>Volver a la pagina de inicio</button></Link>
+                    <Link id='ver-prod' to={'/'}><button id="button" onClick={clear}>Finalizar</button></Link>
                     <br />
                 </div>
                 : <Form className='form-father' noValidate validated={validated} onSubmit={Submit}>
