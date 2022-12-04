@@ -10,11 +10,6 @@ const Loader = () => {
             src={LoadImg}
             className="imgLoader ld ld-spin"
         />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
     </div>
   )
 }

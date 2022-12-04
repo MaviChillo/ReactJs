@@ -22,14 +22,12 @@ const ItemListContainer = () => {
     return (
   
       <div>
-          <h3 id="welcome">Black Veil Brides' Merch Store</h3>
-          {/* <LoadingComponent/>
-          <ItemList products={prod}/>  */}
-
+          
           {
                 loading ? <Loader />
                     :
                     <div>
+                      <h3 id="welcome">Black Veil Brides' Merch Store</h3>
                         <ItemList products={prod}/> 
                     </div>
             }
